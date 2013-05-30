@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.error, div.message {
+	padding: 10px;
+	text-align: left;
+	border-radius: 5px;
+	margin-bottom: 10px
+}
+
+div.error {
+	border: 1px solid #CC0000;
+	background-color: #FFEBE8
+}
+
+div.message {
+	border: 1px solid #E6DB55;
+	background-color: #FFFFE0
+}
+
+#blog {
+	width: 500px;
+	margin: 20px;
+	background: #FFF
+}
+
+#blog .theme-featured {
+	padding: 10px;
+	background: #F1F1F1
+}
+
+#blog .theme-featured h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #FFF
+}
+
+#blog .theme-featured h2 a {
+	text-decoration: none
+}
+
+#blog .file {
+	margin: 10px 0
+}
+
+#blog .file img, #blog .file #player {
+	width: 480px;
+	height: 240px;
+	display: block
+}
+
+#blog .theme {
+	overflow: hidden;
+	padding: 0 10px 10px;
+	border-bottom: 1px solid #CCC
+}
+
+#blog .theme h2 {
+	font-size: 16px;
+	margin-top: 10px
+}
+
+#blog .theme h2 a {
+	color: #000;
+	text-decoration: none
+}
+
+#blog .theme h2 a:hover {
+	color: #000;
+	text-decoration: underline
+}
+
+#blog .theme .thumbnail {
+	float: left;
+	margin: 10px 10px 10px 0
+}
+
+#blog .theme .thumbnail img {
+	width: 160px;
+	height: 80px
+}
+
+#blog .date {
+	color: #666;
+	float: right
+}
+
+#blog h3 {
+	color: #FFF;
+	margin: 10px 0;
+	font-size: 12px;
+	padding: 5px 10px;
+	background: #00AEEF;
+	text-shadow: 1px 1px 1px #000
+}
+
+#blog .theme-detail {
+	padding: 10px
+}
+
+#blog .theme-detail h2 {
+	font-size: 36px;
+	font-weight: 700
+}
+
+#blog #post-your-comment {
+	float: right;
+	margin-bottom: 20px
+}
+
+#blog .comment {
+	clear: both;
+	padding: 10px;
+	overflow: hidden;
+	background: #F1F1F1;
+	margin-bottom: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0 1px 5px #C8C8C8
+}
+
+#blog form {
+	clear: both;
+	border-radius: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0 4px 18px #C8C8C8
+}
+
+#blog form h4 {
+	color: #FFF;
+	padding: 10px;
+	font-size: 14px;
+	background: #00AEEF;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 0 0;
+	text-shadow: 1px 1px 1px #000
+}
+
+#blog form p {
+	margin: 5px 0;
+	padding: 0 10px;
+	overflow: hidden
+}
+
+#blog form label {
+	float: left;
+	width: 80px;
+	line-height: 30px
+}
+
+#blog form textarea {
+	width: 388px;
+	height: 100px;
+	min-width: 388px;
+	max-width: 388px;
+	min-height: 100px;
+	max-height: 150px
+}
